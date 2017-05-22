@@ -1,0 +1,27 @@
+.share-platform{
+    clear: both;
+    margin-top: 10px;
+}
+.share-platform .share-platform-r{
+    float: left;
+    width:204px;
+}
+.share-platform .bds_weixin{
+    background-image: url('css-bg.png');
+    background-position: -13px -7px !important;
+}
+.share-platform .bds_tsina{
+    background-image: url('css-bg.png');
+    background-position: -57px -7px !important;
+}
+.share-platform .bds_sqq{
+    background-image: url('css-bg.png');
+    background-position: -101px -7px !important;
+}
+.share-platform .bds_qzone{
+    background-image: url('css-bg.png');
+    background-position: -146px -7px !important;
+}
+.bdsharebuttonbox{width:154px;float:left;}
+
+

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+<meta charset="UTF-8">
+<title></title>
+<link rel="stylesheet" href="jquery.HooRay/share.css"/>
+<link rel="stylesheet" href="jquery.HooRay/jquery.HooRay.css" />
+<script src="jquery.HooRay/jquery-1.6.2.js"></script>
+<script src="jquery.HooRay/jquery.HooRay.js"></script>
+</head>
+<body>
+    <div class="share-platform">
+        <div class="share-platform-r">
+            <div class="bdsharebuttonbox">
+                <a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信"></a>
+                <a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a>
+                <a href="#" class="bds_sqq" data-cmd="sqq" title="分享到QQ好友"></a>
+                <a href="#" class="bds_qzone" data-cmd="qzone" title="分享到QQ空间"></a>
+            </div>
+    		<div class="demo"><div class="HRshare2"><a class="hr-share-more"><img src="jquery.HooRay/more.png" alt="" /></a></div></div>
+        </div>
+    </div>
+	<script src="jquery.HooRay/jquery.HooRay.js"></script>
+	<script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"分享到新浪微博","bdMini":"1","bdMiniList":["bdxc","tqf","douban","bdhome","sqq","thx","ibaidu","meilishuo","mogujie","diandian","huaban","duitang","hx","fx","youdao","sdo","qingbiji","people","xinhua","mail","isohu","yaolan","wealink","ty","iguba","fbook","twi","linkedin","h163","evernotecn","copy","print"],"bdPic":"","bdStyle":"1","bdSize":"32"},"share":{}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];</script>
+	<script>
+		$(document).ready(function(){
+			$('#accordion').HRsfq({openRow:1});
+			$('.HRshare1').HRshare();
+			$('.HRshare2').HRshare({hasText:false});
+			$('.HRshare3').HRshare({size:32});
+		});
+	</script>
+</body>
+</html>

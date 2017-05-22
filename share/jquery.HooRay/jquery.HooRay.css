@@ -1,0 +1,87 @@
+	body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,th,td{margin:0;padding:0;}table{border-collapse:collapse;border-spacing:0;}fieldset,img{border:0;}address,caption,cite,code,dfn,em,strong,th,var,optgroup{font-style:inherit;font-weight:inherit;}del,ins{text-decoration:none;}li{list-style:none;}caption,th{text-align:left;}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}q:before,q:after{content:'';}abbr,acronym{border:0;font-variant:normal;}sup{vertical-align:baseline;}sub{vertical-align:baseline;}legend{color:#000;}input,button,textarea,select,optgroup,option{font-family:inherit;font-size:inherit;font-style:inherit;font-weight:inherit;}input,button,textarea,select{font-size:100%;}
+	#body{width:960px;margin:0 auto 0 auto;font-size:12px;font-family:"Microsoft Yahei","simsun"}
+	#top{height:150px;line-height:150px;text-align:center;font-size:80px;clear:both;color:#0CF;background:url(logo.jpg) no-repeat;}
+	a.title{display:block;border:1px solid #C1D5E5;padding:4px 0 4px 10px;color:#fff;font-size:16px;font-weight:bold;margin-top:5px;cursor:pointer;background:#0CF url('open.gif') no-repeat center right}
+	a.title:hover{background:#7FD2FF url('open.gif') no-repeat center right;color:#fff}
+	#accordion li{ _display:inline}
+	#accordion li.HRsfq-active a.title{background:#7FD2FF url('close.gif') no-repeat center right;color:#fff}
+	.demo{width: 44px;height: 44px;clear:right;float:left;}    
+	.demo a{height: 28px !important; width: 28px; margin-top: 10px;}
+	.demo a img{width:100%;height:100%;}
+
+
+
+.hr-share-select-hidden{visibility:hidden;}
+.hr-share-more-panel{width:270px;height:300px;background:#F2F2F2;border:3px solid #aaa;display:none}
+.hr-share-more-panel-title{width:260px;height:24px;line-height:24px;border-bottom:1px solid #aaa;padding:0 5px}
+.hr-share-more-panel-title a{font-size:12px;width:20px;text-align:center;text-decoration:none;float:right;color:#666}
+.hr-share-more-panel-title a:hover{color:#000}
+.hr-share-more-panel-title span{font-size:12px;float:left;font-weight:bold}
+.hr-share-more-panel-list{width:270px;height:244px;border-bottom:1px solid #aaa;background:#fff;overflow-y:auto;padding-bottom:10px}
+.hr-share-more-panel-list a{display:block;font-size:12px;width:70px;margin-left:10px;margin-top:10px;padding:0 20px;height:16px;line-height:16px;background:url(HRico_16x16.png) no-repeat;float:left;cursor:pointer}
+.hr-share-more-panel-list a:hover{color:#999}
+a.hr-share-more-panel-tsina{background-position:0 -16px}
+a.hr-share-more-panel-tqq{background-position:0 -32px}
+a.hr-share-more-panel-qzone{background-position:0 -48px}
+a.hr-share-more-panel-renren{background-position:0 -64px}
+a.hr-share-more-panel-baidu{background-position:0 -80px}
+a.hr-share-more-panel-115{background-position:0 -96px}
+a.hr-share-more-panel-tsohu{background-position:0 -112px}
+a.hr-share-more-panel-taobao{background-position:0 -128px}
+a.hr-share-more-panel-xiaoyou{background-position:0 -144px}
+a.hr-share-more-panel-hi{background-position:0 -160px}
+a.hr-share-more-panel-fanfou{background-position:0 -176px}
+a.hr-share-more-panel-sohubai{background-position:0 -192px}
+a.hr-share-more-panel-feixin{background-position:0 -208px}
+a.hr-share-more-panel-youshi{background-position:0 -224px}
+a.hr-share-more-panel-tianya{background-position:0 -240px}
+a.hr-share-more-panel-msn{background-position:0 -256px}
+a.hr-share-more-panel-douban{background-position:0 -272px}
+a.hr-share-more-panel-twangyi{background-position:0 -288px}
+a.hr-share-more-panel-mop{background-position:0 -304px}
+.hr-share-more-panel-copyright{width:260px;height:20px;line-height:20px;padding:0 5px}
+.hr-share-more-panel-copyright a{margin-top:2px;background:url(shareLogo.png) no-repeat;padding-left:20px;height:16px;line-height:16px;font-size:12px;text-decoration:none;float:right;color:#666}
+.hr-share-16 a{display:block;padding:0 5px 0 20px;height:16px;line-height:16px;background:url(HRico_16x16.png) no-repeat;float:left;cursor:pointer}
+.hr-share-16 a:hover{opacity:0.8}
+.hr-share-16 a.hr-share-more{padding:0;background:none;}
+.hr-share-16 a.hr-share-tsina{background-position:0 -16px}
+.hr-share-16 a.hr-share-tqq{background-position:0 -32px}
+.hr-share-16 a.hr-share-qzone{background-position:0 -48px}
+.hr-share-16 a.hr-share-renren{background-position:0 -64px}
+.hr-share-16 a.hr-share-baidu{background-position:0 -80px}
+.hr-share-16 a.hr-share-115{background-position:0 -96px}
+.hr-share-16 a.hr-share-tsohu{background-position:0 -112px}
+.hr-share-16 a.hr-share-taobao{background-position:0 -128px}
+.hr-share-16 a.hr-share-xiaoyou{background-position:0 -144px}
+.hr-share-16 a.hr-share-hi{background-position:0 -160px}
+.hr-share-16 a.hr-share-fanfou{background-position:0 -176px}
+.hr-share-16 a.hr-share-sohubai{background-position:0 -192px}
+.hr-share-16 a.hr-share-feixin{background-position:0 -208px}
+.hr-share-16 a.hr-share-youshi{background-position:0 -224px}
+.hr-share-16 a.hr-share-tianya{background-position:0 -240px}
+.hr-share-16 a.hr-share-msn{background-position:0 -256px}
+.hr-share-16 a.hr-share-douban{background-position:0 -272px}
+.hr-share-16 a.hr-share-twangyi{background-position:0 -288px}
+.hr-share-16 a.hr-share-mop{background-position:0 -304px}
+.hr-share-32 a{display:block;padding:0 5px 0 40px;height:32px;line-height:32px;background:url(HRico_32x32.png) no-repeat;float:left;cursor:pointer}
+.hr-share-32 a:hover{opacity:0.8}
+.hr-share-32 a.hr-share-more{background-position:0 0}
+.hr-share-32 a.hr-share-tsina{background-position:0 -32px}
+.hr-share-32 a.hr-share-tqq{background-position:0 -64px}
+.hr-share-32 a.hr-share-qzone{background-position:0 -96px}
+.hr-share-32 a.hr-share-renren{background-position:0 -128px}
+.hr-share-32 a.hr-share-baidu{background-position:0 -160px}
+.hr-share-32 a.hr-share-115{background-position:0 -192px}
+.hr-share-32 a.hr-share-tsohu{background-position:0 -224px}
+.hr-share-32 a.hr-share-taobao{background-position:0 -256px}
+.hr-share-32 a.hr-share-xiaoyou{background-position:0 -288px}
+.hr-share-32 a.hr-share-hi{background-position:0 -320px}
+.hr-share-32 a.hr-share-fanfou{background-position:0 -352px}
+.hr-share-32 a.hr-share-sohubai{background-position:0 -384px}
+.hr-share-32 a.hr-share-feixin{background-position:0 -416px}
+.hr-share-32 a.hr-share-youshi{background-position:0 -448px}
+.hr-share-32 a.hr-share-tianya{background-position:0 -480px}
+.hr-share-32 a.hr-share-msn{background-position:0 -512px}
+.hr-share-32 a.hr-share-douban{background-position:0 -544px}
+.hr-share-32 a.hr-share-twangyi{background-position:0 -576px}
+.hr-share-32 a.hr-share-mop{background-position:0 -608px}
